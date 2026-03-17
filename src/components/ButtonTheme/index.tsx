@@ -1,6 +1,6 @@
 
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { FiSun, FiMoon } from "react-icons/fi";
 import styles from "./styles.module.css";
 
@@ -9,18 +9,18 @@ type Props = {
 }
 
 export function ButtonTheme({ toggleTheme }: Props) {
-  const [isDark, setIsDark] = useState(false);
-
-  useEffect(() => {
-    const theme = document.body.className;
-    setIsDark(theme === "dark");
-  }, []);
+  const [isDark, setIsDark] = useState(() => {
+    return document.body.classList.contains("dark");
+  });
 
   const handleClick = () => {
-    const newTheme = isDark ? 'light' : 'dark';
+    const nextIsDark = !isDark;
+
     document.body.style.transition = 'background 0.5s ease, color 0.5s ease';
-    setIsDark(!isDark);
+
+    setIsDark(nextIsDark);
     toggleTheme();
+
     setTimeout(() => {
       document.body.style.transition = '';
     }, 500);
