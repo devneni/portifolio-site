@@ -12,7 +12,7 @@ type Props = {
 export function AboutMe({ language }: Props) {
   const handleDownloadCV = () => {
     const link = document.createElement('a');
-    link.href = '/curriculo-devneni.pdf';
+    link.href = 'curriculo-devneni.pdf';
     link.download = 'curriculo-devneni.pdf';
     document.body.appendChild(link);
     link.click();
