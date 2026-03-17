@@ -7,6 +7,7 @@ import { Langs } from "./components/Langs";
 import { AboutMe } from "./pages/AboutMe";
 import { SocialMedia } from "./pages/SocialMedia";
 import { Routes, Route } from "react-router-dom";
+import { Projects } from "./pages/Projects";
 
 
 
@@ -56,7 +57,7 @@ export function App(){
           <Route path="/langs" element={<Langs language={language} />} />
           <Route path="/aboutme" element={<AboutMe language={language} />} />
           <Route path="/socialmedia" element={<SocialMedia language={language} />} />
-          <Route path="/projects" element={<div className="placeholder">Projects - Em breve</div>} />
+          <Route path="/projects" element={<Projects language={language} />} />
         </Routes>
       </main>
     </div>
