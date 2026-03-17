@@ -10,8 +10,8 @@ export const translations = {
     aboutText:
       "I am an 18-year-old Full Stack developer, currently studying Information Systems at Uniplac...",
     downloadCV: "Download CV",
-    technologies: "technologies",
-    socialMedia: "social media",
+    technologies: " technologies ",
+    socialMedia: " social media ",
     nameSite: "Portfolio - Neni",
     projectsName: "Projects",
     GeneratorCV: "CV Generator",
@@ -28,8 +28,8 @@ export const translations = {
     aboutText:
       "Sou um desenvolvedor Full Stack de 18 anos, atualmente cursando Sistemas de Informação...",
     downloadCV: "Baixar Currículo",
-    technologies: "tecnologias",
-    socialMedia: "redes sociais",
+    technologies: " tecnologias ",
+    socialMedia: " redes sociais ",
     nameSite: "Portfólio - Neni",
     projectsName: "Projetos",
     GeneratorCV: "Gerador de Currículos",
