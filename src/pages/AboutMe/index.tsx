@@ -12,8 +12,8 @@ type Props = {
 export function AboutMe({ language }: Props) {
   const handleDownloadCV = () => {
     const link = document.createElement('a');
-    link.href = '/curriculo-neni.pdf';
-    link.download = 'curriculo-neni.pdf';
+    link.href = '/curriculo-devneni.pdf';
+    link.download = 'curriculo-devneni.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
