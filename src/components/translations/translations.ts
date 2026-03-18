@@ -8,7 +8,7 @@ export const translations = {
     intermediate: "Intermediate",
     beginner: "Beginner",
     aboutText:
-      "I am an 18-year-old Full Stack developer, currently studying Information Systems at Uniplac...",
+      "I'm an 18-year-old Full Stack developer, currently studying Information Systems...",
     downloadCV: "Download CV",
     technologies: " technologies ",
     socialMedia: " social media ",

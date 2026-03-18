@@ -28,7 +28,7 @@ const projectsData: {
   {
     key: "portfolio",
     description: "React, CSS, TypeScript.",
-    url: "teste",
+    url: "/langs",
     logo: IoLogoReact,
     color: "#61dafb",
   },
