@@ -10,7 +10,7 @@ type Props = {
   language: Language;
 };
 
-// 🔥 Dados desacoplados da tradução
+
 const projectsData: {
   key: TranslationKeys;
   description: string;
@@ -28,7 +28,7 @@ const projectsData: {
   {
     key: "portfolio",
     description: "React, CSS, TypeScript.",
-    url: "/langs",
+    url: "https://portfoliodevneni.netlify.app/",
     logo: IoLogoReact,
     color: "#61dafb",
   },
