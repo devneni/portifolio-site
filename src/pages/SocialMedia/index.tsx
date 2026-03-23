@@ -13,7 +13,7 @@ type Props = {
 const socialMedias = [
   {logo: FaGithub ,title: "GitHub", url: "https://github.com/devneni", color: ""},
   {logo: FaLinkedin,title: "LinkedIn", url: "https://www.linkedin.com/in/devjoaovicenteribeiro/", color: ""},
-  {logo: FaInstagram,title: "Instagram", url: "https://www.instagram.com/joaoneni_", color: ""},
+  {logo: FaInstagram,title: "Instagram", url: "https://www.instagram.com/g59neni", color: ""},
   {logo: MdEmail  ,title: "Email", url: "mailto:joaovicente4142@gmail.com?subject=", color: ""}
 ]
 
